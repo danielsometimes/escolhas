@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(27,23,23);
+  font-family: "SUSE", system-ui;
+  color: white;
+  font-size: 25px;
+}
+
+input[type="checkbox"]{
+  transform: scale(2);
+  margin-right: 20px;
+}
+
+input[type="text"]{
+  font-size: 60px;
+  width: 80px;
+  border-radius: 20px;
+  border: solid 4px white;
+}
+
+canvas {
+  display: block;
+}
+
+.hidden{
+  display: none;
+}
+
+.botao{
+  background-color: rgb(255,255,255);
+  font-family: "SUSE", system-ui;
+  border: 2px solid white;
+  border-radius: 200px;
+  font-size: 25px;
+}
+
+.botao:hover{
+  background-color: #E0E0E0;
+}
